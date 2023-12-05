@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <aside class="menu white-bg">
+    <div class="menu-container main-content">
+      <h1><a href="#">LOGO</a></h1>
+
+      <nav>
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section class="intro main-bg section" id="intro">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Python</h2>
+        <p>
+          Python is a programming language that lets you work quickly
+          and integrate systems more effectively.
+        </p>
+      </div>
+      <div class="intro-img">
+        <img src="img/python-logo-only.svg" alt="Web developer">
+      </div>
+    </div>
+  </section>
+
+  <section class="white-bg section" id="about">
+    <div class="main-content about-content">
+      <div>
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Cumque dolore temporibus illum rerum tempore veniam a, id nemo quos perferendis odit modi, porro quae!</p>
+        <p>Et odio ratione assumenda! Eius, nulla.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-bg section" id="gallery">
+    <div class="main-content gallery-content">
+      <div>
+        <h2 class="gallery-heading">Gallery</h2>
+        <p class="gallery-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
+        <div class="grid">
+          <div class="gallery-img">
+            <img src="img/Thumbnail_1.jpg" alt="The Book Of Boba Fett - thumbnail">
+          </div>
+          <div class="gallery-img">
+            <img src="img/Thumbnail_2.jpg" alt="Spider-Man: No Way Home - thumbnail">
+          </div>
+          <div class="gallery-img">
+            <img src="img/Thumbnail_3.jpg" alt="Iron Maiden - Senjutsu - thumbnail">
+          </div>
+          <div class="gallery-img">
+            <img src="img/Thumbnail_4.jpg" alt="ABBA - ISTHFIN / DSMD - thumbnail">
+          </div>
+          <div class="gallery-img">
+            <img src="img/Thumbnail_5.jpg" alt="Sean Riley & The Slowriders - Life - thumbnail">
+          </div>
+          <div class="gallery-img">
+            <img src="img/Thumbnail_6.jpg" alt="Luca - thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="white-bg section" id="projects">
+    <div class="main-content projects-content">
+      <div>
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Cumque dolore temporibus illum rerum tempore veniam a, id nemo quos perferendis odit modi, porro quae!</p>
+        <p>Et odio ratione assumenda! Eius, nulla.</p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>Table 1</caption>
+            
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+            </tbody>
+            
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Footer</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-bg section" id="contact">
+    <div class="main-content">
+      <div>
+        <h2>Contact form</h2>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>If you want to contact me, please fill the form below.</legend>
+
+            <div class="form-group">
+              <label for="first-name">First name:</label>
+              <input type="text" name="first-name" id="first-name" 
+              placeholder="Your first name">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last name:</label>
+              <input type="text" name="last-name" id="last-name" 
+              placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="text" name="email" id="email" 
+              placeholder="Your e-mail address">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" cols="30" rows="10">
+              </textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer white-bg" id="footer">
+    <p>© 2023 David Patrício - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
